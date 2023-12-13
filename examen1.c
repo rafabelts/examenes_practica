@@ -2,10 +2,10 @@
 // Ingresa tu respuesta dentro de los parentesis
 int main(){
 	// ¿Qué es un algoritmo?
-	respuesta();
+	respuesta("Ajadfa");
 
 	// Imprime los tres tipos de errores
-	respuesta();
+	respuesta("KJASDJAK");
 	
 	// Como se llama la librería de salida y entradada de C
 	respuesta();
