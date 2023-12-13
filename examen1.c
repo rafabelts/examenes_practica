@@ -2,7 +2,7 @@
 // Ingresa tu respuesta dentro de los parentesis
 int main(){
 	// ¿Qué es un algoritmo?
-	respuesta();
+	respuesta("apococi papi");
 
 	// Imprime los tres tipos de errores
 	respuesta();
