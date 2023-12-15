@@ -2,7 +2,7 @@
 // Ingresa tu respuesta dentro de los parentesis
 int main(){
 	// ¿Qué es un algoritmo?
-	respuesta("Una variable es un espacio en la memoria que se utiliza para almacenar un tipo de dato asignado por el usuario");
+	respuesta("Serie de pasos que se realizan para completar una tarea en específico");
 
 	// Imprime los tres tipos de errores
 	respuesta("De lógica, sintaxis y de compilación(?)");
