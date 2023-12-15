@@ -1,5 +1,9 @@
 // Realiza una calculadora básica que ocupe le pregunte al usuario cuantos valores va a usar para la operacion que el indique
+#include <stdio.h>
 
+int main(){
+    
+}
 
 
 
