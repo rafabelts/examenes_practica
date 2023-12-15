@@ -96,10 +96,10 @@ int main(){
 	respuesta("si el usuario pone X pone Lis, si pone otra cosa pone Luzio");
 
 	// Crea una condicional que indica al usuario que su calificación es buena en caso de ser mayor a 8, pero que no excede del 10
-	respuesta();
+	respuesta("if (8 >= calificacion && calificacion <= 10) ");
 
 	// Indica como puedo declarar un arreglo de caracteres en C
-	respuesta();
+	respuesta("char nombre[longitud_del_arreglo_si_se_conoce];");
 
 	// Este bucle cuantas veces imprime hola mundo
 	/*
@@ -108,7 +108,7 @@ int main(){
 			printf("Hola mundo\n");
 		} while(x > 1);
 	*/
-	respuesta();
+	respuesta("1 vez pq el primero se ejecuta la primera parte que es DO y se para pq la condicional no se cumple");
 
 	// Que hay de malo en este bucle
 	/*
@@ -116,7 +116,7 @@ int main(){
 			printf("%d\n", i);
 		}
 	*/
-	respuesta();
+	respuesta("en que la condicional es falsa y no imprimira nada");
 
 	// Reescribe el siguiente bucle for en un while
 	/*
@@ -124,13 +124,21 @@ int main(){
 			printf("%d\n", i);
 		}
 	*/
-	respuesta();
+	respuesta("int i=100;
+           "while(i > 40+1){
+           "printf("%d\n", i);
+           "i--;
+           "}
+           );
 
 	// Como puedo mostrar los valores uno a uno del siguiente arreglo? int nums[] = {10, 20, 50, 10, 80};
-	respuesta();
+	respuesta("for (i = 0; i < sizeof(nums) / sizeof(nums[0]); i++) {
+    "printf("%d\n", nums[i]);
+  "}
+  );
 
 	// Haz un programa en el cual le pidas al usuario 10 valores, de estos 10 valores itera para encontrar cuantos son pares y cuantos impares. (Usa arreglos!!!)
-	respuesta();
+	respuesta("al chile no se, hasta ahi llego mi conocimento");
 }
 
 // Suerte!
